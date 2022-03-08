@@ -58,13 +58,56 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Publications</heading>
+              <heading>Publications & Preprints</heading>
               <p>
               </p>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="idm_plus_plus_stop()" onmouseover="idm_plus_plus_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/IDM++.PNG' width="160">
+              </div>
+              <script type="text/javascript">
+                function idm_plus_plus_start() {
+                  document.getElementById('idm_image').style.opacity = "1";
+                }
+
+                function idm_stop() {
+                  document.getElementById('idm_image').style.opacity = "0";
+                }
+                idm_plus_plus_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://arxiv.org/abs/2108.02413">
+                <papertitle>Bridging the Source-to-target Gap for Cross-domain Person Re-Identification with Intermediate Domains</papertitle>
+              </a>
+              <br>
+              <strong>Yongxing Dai</strong>,
+              <a href="https://yifansun-reid.github.io/">Yifan Sun</a>,
+              <a href="https://ljchangyu.wixsite.com/liujun021">Jun Liu</a>,
+              <a href="https://scholar.google.com/citations?user=odJ3HhEAAAAJ&hl=en">Zekun Tong</a>,
+              <a href="https://scholar.google.com/citations?user=RMSuNFwAAAAJ&hl=zh-CN">Yi Yang</a>,
+              <a href="https://scholar.google.com/citations?user=hsXZOgIAAAAJ&hl=zh-CN">Ling-Yu Duan</a>
+              <br>
+              <em>Arxiv preprint</em>, 2022
+              <br>
+              <a href="https://arxiv.org/abs/2203.01682">paper</a>
+              /
+              <a href="https://github.com/SikaStar/IDM">code</a>
+              /
+              <a href="data/dai2022bridging.bib">bibtex</a>
+              <p></p>
+              <p>IDM++ is a journal extension of IDM (ICCV 2021 Oral). We further propose a Mirrors Generation Module (MGM) to reinforce IDM into IDM++. IDM++ provides a unified framework 
+                 for two popular cross-domain re-ID scenarios (i.e., UDA and DG). Twelve UDA re-ID benchmarks and two DG re-ID protocols validate that IDM++ brings general improvement and 
+                 sets new state of the art for both scenarios.
+              </p>
+            </td>
+          </tr> 
 
           <tr onmouseout="dsu_stop()" onmouseover="dsu_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
